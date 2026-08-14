@@ -2,7 +2,7 @@
   const KEY = "nbz-lang";
   const I18N = {
     fr: {
-      draft: "Proposition de site — informations à valider avec le propriétaire.",
+      draft: "Brouillon — à valider avec vous.",
       "nav.info": "Infos",
       "nav.ranges": "Rayons",
       "nav.find": "Plan",
@@ -49,7 +49,7 @@
       "footer.draft": "Site vitrine proposé — pas encore le site officiel."
     },
     en: {
-      draft: "Draft website — details to confirm with the owner.",
+      draft: "Draft — to confirm with you.",
       "nav.info": "Info",
       "nav.ranges": "Stock",
       "nav.find": "Map",
@@ -136,7 +136,7 @@
       var num = a.getAttribute("data-wa-shop") || "";
       var url = location.href.split("#")[0];
       var msg = "Bonzour, voici la page préparée pour NBZ Hardware. Ouvert li lor ou telefon pendant qu'on koz. Pa encore officiel.\n" + url;
-      location.href = "https://wa.me/" + num + "?text=" + encodeURIComponent(msg);
+      location.href = "https://wa.me/?text=" + encodeURIComponent(msg);
     });
   });
 })();

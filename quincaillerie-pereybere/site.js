@@ -2,7 +2,7 @@
   const KEY = "pereybere-lang";
   const I18N = {
     fr: {
-      draft: "Proposition de site — informations à valider avec le propriétaire.",
+      draft: "Brouillon — à valider avec vous.",
       "cta.wa": "WhatsApp matériaux",
       "cta.hint": "Ciment, fer, vrac — confirmez le stock avant de charger.",
       "trust.btp": "Matériaux de chantier",
@@ -44,7 +44,7 @@
       "footer.draft": "Site vitrine proposé — pas encore le site officiel."
     },
     en: {
-      draft: "Draft website — details to confirm with the owner.",
+      draft: "Draft — to confirm with you.",
       "cta.wa": "WhatsApp materials",
       "cta.hint": "Cement, steel, bulk — confirm stock before you load.",
       "trust.btp": "Site materials",
@@ -111,7 +111,7 @@
       var num = a.getAttribute("data-wa-shop") || "";
       var url = location.href.split("#")[0];
       var msg = "Bonzour, voici la page préparée pour Quincaillerie Pereybere. Ouvert li lor ou telefon pendant qu'on koz. Pa encore officiel.\n" + url;
-      location.href = "https://wa.me/" + num + "?text=" + encodeURIComponent(msg);
+      location.href = "https://wa.me/?text=" + encodeURIComponent(msg);
     });
   });
 })();

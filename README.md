@@ -10,7 +10,16 @@ https://vitrines.mkweli.tech/playbook/
 Hub (ne pas montrer au propriétaire) :  
 https://vitrines.mkweli.tech/
 
-Pendant le pitch : tape **Envoyer au patron** — le lien part sur le WhatsApp du magasin, le propriétaire ouvre SO telefon.
+Hub + playbook are password-gated. After you approve a hire, tell them: **`mkweli-nord`**.
+
+Pendant le pitch : tape **Envoyer au patron** — WhatsApp ouvre le choix du contact (chat perso, pas le numéro public du magasin).
+
+Prix au comptoir : **Rs 12 000** une fois. Commission hire : **Rs 5 000** après paiement reçu (dans `/equipe/termes.html`, pas au patron).
+
+Annonce X (vague) :
+
+> Grand Baie — mo rode ene dimounn pou vizite ti commerces, parler au comptoir, semaine matin. Kreol + français. Pa bizin conne computer.  
+> Ecrire « dispo » lor WhatsApp [number]. Mo explike si ça match.
 
 | Magasin | Ouvrir sur le téléphone |
 |---|---|
