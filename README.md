@@ -5,24 +5,34 @@ Cinq brouillons indépendants, un dossier par commerce. HTML/CSS/JS statique, h�
 ## URLs téléphone (pitch)
 
 Guide vendeur (live, kreol + français, sans technique) :  
-https://gilbertbouic.github.io/grand-baie-quincailleries/playbook/
+https://vitrines.mkweli.tech/playbook/
 
 Hub (ne pas montrer au propriétaire) :  
-https://gilbertbouic.github.io/grand-baie-quincailleries/
+https://vitrines.mkweli.tech/
 
 Pendant le pitch : tape **Envoyer au patron** — le lien part sur le WhatsApp du magasin, le propriétaire ouvre SO telefon.
 
 | Magasin | Ouvrir sur le téléphone |
 |---|---|
-| Kiss Grand Bay | https://gilbertbouic.github.io/grand-baie-quincailleries/quincaillerie-kiss/ |
-| Singlon | https://gilbertbouic.github.io/grand-baie-quincailleries/quincaillerie-singlon/ |
-| NBZ Hardware | https://gilbertbouic.github.io/grand-baie-quincailleries/nbz-hardware/ |
-| La Coruna | https://gilbertbouic.github.io/grand-baie-quincailleries/quincaillerie-la-coruna/ |
-| Pereybere | https://gilbertbouic.github.io/grand-baie-quincailleries/quincaillerie-pereybere/ |
+| Kiss Grand Bay | https://vitrines.mkweli.tech/quincaillerie-kiss/ |
+| Singlon | https://vitrines.mkweli.tech/quincaillerie-singlon/ |
+| NBZ Hardware | https://vitrines.mkweli.tech/nbz-hardware/ |
+| La Coruna | https://vitrines.mkweli.tech/quincaillerie-la-coruna/ |
+| Pereybere | https://vitrines.mkweli.tech/quincaillerie-pereybere/ |
 
-Arguments de vente : https://gilbertbouic.github.io/grand-baie-quincailleries/sales/
+Arguments de vente : https://vitrines.mkweli.tech/sales/
 
 Enregistrer les 5 liens du magasin dans un dossier « Pitch » sur le téléphone. Ouvrir **un seul** site devant le propriétaire.
+
+## Domaine `vitrines.mkweli.tech`
+
+Apex `mkweli.tech` (studio) is unchanged. Add this **one** DNS record where the zone is managed:
+
+| Type | Name | Target |
+|---|---|---|
+| CNAME | `vitrines` | `gilbertbouic.github.io` |
+
+Cloudflare: leave the record **DNS only** (grey cloud) until GitHub has issued HTTPS, then proxy is optional.
 
 ## Dossiers (un par commerce)
 
