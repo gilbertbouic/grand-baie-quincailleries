@@ -4,8 +4,13 @@ Cinq brouillons indépendants, un dossier par commerce. HTML/CSS/JS statique, h�
 
 ## URLs téléphone (pitch)
 
-Hub vendeur (ne pas montrer au propriétaire) :  
+Guide vendeur (live, kreol + français, sans technique) :  
+https://gilbertbouic.github.io/grand-baie-quincailleries/playbook/
+
+Hub (ne pas montrer au propriétaire) :  
 https://gilbertbouic.github.io/grand-baie-quincailleries/
+
+Pendant le pitch : tape **Envoyer au patron** — le lien part sur le WhatsApp du magasin, le propriétaire ouvre SO telefon.
 
 | Magasin | Ouvrir sur le téléphone |
 |---|---|

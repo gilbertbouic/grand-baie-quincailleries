@@ -20,9 +20,11 @@ a { color: inherit; }
 
 .draft-banner {
   background: var(--navy); color: var(--gold); text-align: center;
-  font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase;
+  font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;
   padding: 0.52rem 1rem; position: sticky; top: 0; z-index: 50;
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.35rem 0.85rem;
 }
+.send-owner { color: #f3e6c4; font-weight: 600; text-decoration: underline; letter-spacing: 0.06em; white-space: nowrap; }
 header {
   background: rgba(10, 22, 40, 0.94); color: #f3f1ec;
   position: sticky; top: 32px; z-index: 40; backdrop-filter: blur(16px);

@@ -20,6 +20,17 @@
     a.card img { width: 104px; height: 92px; object-fit: cover; background: #eee; }
     a.card h2 { margin: 0.2rem 0 0.15rem; font-size: 1.02rem; }
     a.card p { margin: 0 0.7rem 0.2rem 0; font-size: 0.82rem; }
+    .row { display: grid; gap: 0.4rem; }
+    .wa {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 44px; background: #1f6b4a; color: #fff; font-weight: 700;
+      text-decoration: none; border-radius: 10px; font-size: 0.88rem;
+    }
+    .guide {
+      display: block; background: #7a1f18; color: #fff; text-align: center;
+      padding: 0.95rem 1rem; border-radius: 12px; text-decoration: none;
+      font-weight: 700; margin: 1rem 0 0.4rem; min-height: 48px;
+    }
     .tag { display: inline-block; font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 800; color: #8a3b16; }
     nav { margin-top: 1.3rem; }
     nav a { color: #8a3b16; font-weight: 700; display: inline-flex; min-height: 44px; align-items: center; }
@@ -34,45 +45,61 @@
   <div class="wrap">
     <div class="warn">Démo interne — ne pas envoyer cette page aux propriétaires. Chaque magasin a son propre dossier et sa propre URL.</div>
     <h1>Cinq sites vitrines — Grand Baie / Pereybere</h1>
-    <p>Enregistrez cette page dans un dossier « Pitch » sur le téléphone. Devant le propriétaire, ouvrez <strong>un seul</strong> site — jamais ce hub. Ordre conseillé : Kiss → Singlon → NBZ → La Coruna → Pereybere.</p>
+    <p>Devant le propriétaire : ouvre <strong>un seul</strong> site, tape <strong>Envoyer au patron</strong>, li ouvert SO telefon pendant to koz. Ordre : Kiss → Singlon → NBZ → La Coruna → Pereybere.</p>
+    <a class="guide" href="playbook/">Guide vendeur — ki dire, kouma vendre</a>
     <div class="grid">
-      <a class="card" href="quincaillerie-kiss/">
-        <img src="quincaillerie-kiss/assets/hero.jpg" alt="">
-        <div>
-          <h2>Quincaillerie Kiss Grand Bay</h2>
-          <p><span class="tag">1 · Dimanche + 1969</span><br>Royal Road · 5256 9117</p>
-        </div>
-      </a>
-      <a class="card" href="quincaillerie-singlon/">
-        <img src="quincaillerie-singlon/assets/hero.jpg" alt="">
-        <div>
-          <h2>Quincaillerie Singlon</h2>
-          <p><span class="tag">2 · Coupe / soudure</span><br>Royal Road / B13 · 263 1537</p>
-        </div>
-      </a>
-      <a class="card" href="nbz-hardware/">
-        <img src="nbz-hardware/assets/hero.jpg" alt="">
-        <div>
-          <h2>NBZ Hardware Shop</h2>
-          <p><span class="tag">3 · Livraison + électricité</span><br>Geranium Road · 263 8711</p>
-        </div>
-      </a>
-      <a class="card" href="quincaillerie-la-coruna/">
-        <img src="quincaillerie-la-coruna/assets/hero.jpg" alt="">
-        <div>
-          <h2>Quincaillerie La Coruna</h2>
-          <p><span class="tag">4 · Première en 1980</span><br>Royal Road · 263 6879</p>
-        </div>
-      </a>
-      <a class="card" href="quincaillerie-pereybere/">
-        <img src="quincaillerie-pereybere/assets/hero.jpg" alt="">
-        <div>
-          <h2>Quincaillerie Pereybere Co. Ltd</h2>
-          <p><span class="tag">5 · Matériaux BTP</span><br>Allée des Goélands · 5913 1000</p>
-        </div>
-      </a>
+      <div class="row">
+        <a class="card" href="quincaillerie-kiss/">
+          <img src="quincaillerie-kiss/assets/hero.jpg" alt="">
+          <div>
+            <h2>Quincaillerie Kiss Grand Bay</h2>
+            <p><span class="tag">1 · Dimanche + 1969</span><br>Royal Road · 5256 9117</p>
+          </div>
+        </a>
+        <a class="wa" href="https://wa.me/23052569117?text=Bonzour%2C%20voici%20la%20page%20pr%C3%A9par%C3%A9e%20pour%20Quincaillerie%20Kiss%20Grand%20Bay.%20Ouvert%20li%20lor%20ou%20telefon%20pendant%20qu%E2%80%99on%20koz.%20Pa%20encore%20officiel.%0Ahttps%3A%2F%2Fgilbertbouic.github.io%2Fgrand-baie-quincailleries%2Fquincaillerie-kiss%2F">WhatsApp le lien au patron</a>
+      </div>
+      <div class="row">
+        <a class="card" href="quincaillerie-singlon/">
+          <img src="quincaillerie-singlon/assets/hero.jpg" alt="">
+          <div>
+            <h2>Quincaillerie Singlon</h2>
+            <p><span class="tag">2 · Coupe / soudure</span><br>Royal Road / B13 · 263 1537</p>
+          </div>
+        </a>
+        <a class="wa" href="https://wa.me/2302631537?text=Bonzour%2C%20voici%20la%20page%20pr%C3%A9par%C3%A9e%20pour%20Quincaillerie%20Singlon.%20Ouvert%20li%20lor%20ou%20telefon%20pendant%20qu%E2%80%99on%20koz.%20Pa%20encore%20officiel.%0Ahttps%3A%2F%2Fgilbertbouic.github.io%2Fgrand-baie-quincailleries%2Fquincaillerie-singlon%2F">WhatsApp le lien au patron</a>
+      </div>
+      <div class="row">
+        <a class="card" href="nbz-hardware/">
+          <img src="nbz-hardware/assets/hero.jpg" alt="">
+          <div>
+            <h2>NBZ Hardware Shop</h2>
+            <p><span class="tag">3 · Livraison + électricité</span><br>Geranium Road · 263 8711</p>
+          </div>
+        </a>
+        <a class="wa" href="https://wa.me/2302638711?text=Bonzour%2C%20voici%20la%20page%20pr%C3%A9par%C3%A9e%20pour%20NBZ%20Hardware.%20Ouvert%20li%20lor%20ou%20telefon%20pendant%20qu%E2%80%99on%20koz.%20Pa%20encore%20officiel.%0Ahttps%3A%2F%2Fgilbertbouic.github.io%2Fgrand-baie-quincailleries%2Fnbz-hardware%2F">WhatsApp le lien au patron</a>
+      </div>
+      <div class="row">
+        <a class="card" href="quincaillerie-la-coruna/">
+          <img src="quincaillerie-la-coruna/assets/hero.jpg" alt="">
+          <div>
+            <h2>Quincaillerie La Coruna</h2>
+            <p><span class="tag">4 · Première en 1980</span><br>Royal Road · 263 6879</p>
+          </div>
+        </a>
+        <a class="wa" href="https://wa.me/2302636879?text=Bonzour%2C%20voici%20la%20page%20pr%C3%A9par%C3%A9e%20pour%20Quincaillerie%20La%20Coruna.%20Ouvert%20li%20lor%20ou%20telefon%20pendant%20qu%E2%80%99on%20koz.%20Pa%20encore%20officiel.%0Ahttps%3A%2F%2Fgilbertbouic.github.io%2Fgrand-baie-quincailleries%2Fquincaillerie-la-coruna%2F">WhatsApp le lien au patron</a>
+      </div>
+      <div class="row">
+        <a class="card" href="quincaillerie-pereybere/">
+          <img src="quincaillerie-pereybere/assets/hero.jpg" alt="">
+          <div>
+            <h2>Quincaillerie Pereybere Co. Ltd</h2>
+            <p><span class="tag">5 · Matériaux BTP</span><br>Allée des Goélands · 5913 1000</p>
+          </div>
+        </a>
+        <a class="wa" href="https://wa.me/23059131000?text=Bonzour%2C%20voici%20la%20page%20pr%C3%A9par%C3%A9e%20pour%20Quincaillerie%20Pereybere.%20Ouvert%20li%20lor%20ou%20telefon%20pendant%20qu%E2%80%99on%20koz.%20Pa%20encore%20officiel.%0Ahttps%3A%2F%2Fgilbertbouic.github.io%2Fgrand-baie-quincailleries%2Fquincaillerie-pereybere%2F">WhatsApp le lien au patron</a>
+      </div>
     </div>
-    <nav><a href="sales/">Arguments de vente (FR)</a></nav>
+    <nav><a href="playbook/">Guide vendeur</a></nav>
   </div>
 </body>
 </html>
