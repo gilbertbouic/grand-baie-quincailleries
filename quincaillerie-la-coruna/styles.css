@@ -12,8 +12,8 @@
   --max: 1120px;
 }
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--ivory); color: var(--ink); font-family: var(--sans); line-height: 1.65; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ivory); color: var(--ink); font-family: var(--sans); line-height: 1.65; overflow-x: hidden; }
 img { max-width: 100%; display: block; }
 a { color: inherit; }
 .wrap { width: min(var(--max), calc(100% - 2.4rem)); margin-inline: auto; }
@@ -88,7 +88,7 @@ h2 { font-family: var(--serif); font-size: clamp(2rem, 3.2vw, 2.8rem); font-weig
 
 footer { border-top: 1px solid var(--line); padding: 2rem 0 6.2rem; color: var(--muted); font-size: 0.82rem; }
 footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-.sticky-cta { display: none; position: fixed; inset: auto 0 0 0; background: var(--ivory); border-top: 1px solid var(--line); padding: 0.65rem; gap: 0.5rem; z-index: 45; }
+.sticky-cta { display: none; position: fixed; inset: auto 0 0 0; background: var(--ivory); border-top: 1px solid var(--line); padding: 0.65rem 0.65rem calc(0.65rem + env(safe-area-inset-bottom)); gap: 0.5rem; z-index: 45; }
 .sticky-cta .btn { flex: 1; }
 
 @media (max-width: 860px) {
@@ -96,10 +96,27 @@ footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wr
   .desk { display: none; }
 }
 @media (max-width: 680px) {
+  .wrap { width: min(var(--max), calc(100% - 1.4rem)); }
+  .draft-banner { position: relative; font-size: 0.62rem; letter-spacing: 0.06em; padding: 0.45rem 0.7rem; line-height: 1.3; }
+  header { top: 0; }
+  .header-inner { min-height: 58px; }
+  .brand img { width: 36px; height: 36px; }
+  .brand em { font-size: 1.25rem; }
+  .lang-btn { min-width: 40px; min-height: 40px; }
   .header-cta { display: none; }
   .sticky-cta { display: flex; }
-  body { padding-bottom: 76px; }
-  .hero-photo { height: 32vh; min-height: 180px; }
-  .intro { padding-top: 1.6rem; }
-  .year { font-size: 4.6rem; }
+  .sticky-cta .btn { min-height: 48px; }
+  body { padding-bottom: calc(78px + env(safe-area-inset-bottom)); }
+  .hero-photo { height: 26vh; min-height: 150px; }
+  .intro { padding: 1.3rem 0 1.2rem; gap: 0.8rem; }
+  .year { font-size: 3.4rem; }
+  h1 { font-size: 1.85rem; }
+  .lede { font-size: 0.95rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .hint { display: none; }
+  section { padding: 2.2rem 0; }
+  .map-wrap iframe { height: 240px; }
+  .close { padding: 3rem 0 4.6rem; }
+  .actions { display: none; }
+  .trust { grid-template-columns: repeat(3, 1fr); }
+  .trust span { letter-spacing: 0.04em; font-size: 0.58rem; }
 }
