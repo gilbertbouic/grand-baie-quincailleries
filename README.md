@@ -1,6 +1,8 @@
-# Sites vitrines — quincailleries Grand Baie
+# Sites vitrines — commerces Grand Baie
 
 Cinq brouillons indépendants, un dossier par commerce. HTML/CSS/JS statique, hébergé sur GitHub Pages. Français par défaut, bascule EN.
+
+Héros = photos Google (ou Street View) de la vraie façade. Pas d’images inventées. Un commerce sans photo réelle, ou qui a déjà un vrai site ailleurs, n’est pas dans le pitch.
 
 ## URLs téléphone (pitch)
 
@@ -24,7 +26,7 @@ Annonce X (vague) :
 | Magasin | Ouvrir sur le téléphone |
 |---|---|
 | Kiss Grand Bay | https://vitrines.mkweli.tech/quincaillerie-kiss/ |
-| Singlon | https://vitrines.mkweli.tech/quincaillerie-singlon/ |
+| Lennard’s Store | https://vitrines.mkweli.tech/lennard-store/ |
 | NBZ Hardware | https://vitrines.mkweli.tech/nbz-hardware/ |
 | La Coruna | https://vitrines.mkweli.tech/quincaillerie-la-coruna/ |
 | Pereybere | https://vitrines.mkweli.tech/quincaillerie-pereybere/ |
@@ -48,10 +50,12 @@ Cloudflare: leave the record **DNS only** (grey cloud) until GitHub has issued H
 | Dossier | Commerce |
 |---|---|
 | `quincaillerie-kiss/` | Quincaillerie Kiss Grand Bay |
-| `quincaillerie-singlon/` | Quincaillerie Singlon |
+| `lennard-store/` | Lennard’s Store (épicerie B13) |
 | `nbz-hardware/` | NBZ Hardware Shop |
 | `quincaillerie-la-coruna/` | Quincaillerie La Coruna |
 | `quincaillerie-pereybere/` | Quincaillerie Pereybere Co. Ltd |
+
+`quincaillerie-singlon/` reste sur disque mais **hors pitch** : aucune photo réelle sur Google / Street View.
 
 `index.html` à la racine = tableau de démo **interne**. `sales/` = arguments de vente. Ne pas envoyer ces deux URL aux propriétaires.
 
@@ -83,9 +87,9 @@ Publier ce dépôt : les sites seront à
 
 ## Après signature
 
-- Remplacer `assets/hero.jpg` par une photo réelle de la façade.
+- Remplacer `assets/hero.jpg` par une photo plus récente du propriétaire si elle est plus nette que la photo Google.
 - Corriger horaires / téléphone dans `index.html`.
 - Retirer le bandeau `.draft-banner` et le texte `footer.draft`.
 - Ajouter l’URL dans Google Business → Site web.
 
-Les images actuelles sont des visuels de présentation, pas des photos officielles des magasins.
+Les héros actuels sont des photos Google de la façade réelle (pas des visuels générés).
