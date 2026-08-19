@@ -14,13 +14,13 @@ https://vitrines.mkweli.tech/
 
 Hub + playbook are password-gated. After you approve a hire, tell them: **`mkweli-nord`**.
 
-Pendant le pitch : tape **Envoyer au patron** — WhatsApp ouvre le choix du contact (chat perso, pas le numéro public du magasin).
+Pitch : **texte WhatsApp** sur le numéro public du magasin. Pas de voice note, pas d’appel. Un magasin par jour.
 
-Prix au comptoir : **Rs 12 000** une fois. Commission hire : **Rs 5 000** après paiement reçu (dans `/equipe/termes.html`, pas au patron).
+Prix : **Rs 5 000** une fois. Pas de mensualité dans le pitch. Si un hire envoie les textes : commission **Rs 1 500** après paiement reçu (dans `/equipe/termes.html`, pas au patron).
 
 Annonce X (vague) :
 
-> Grand Baie — mo rode ene dimounn pou vizite ti commerces, parler au comptoir, semaine matin. Kreol + français. Pa bizin conne computer.  
+> Grand Baie — mo rode ene dimounn pou ecrire 5 commerces lor WhatsApp, semaine. Kreol + français. Texte seulement, pa voice.  
 > Ecrire « dispo » lor WhatsApp [number]. Mo explike si ça match.
 
 | Magasin | Ouvrir sur le téléphone |
@@ -33,7 +33,7 @@ Annonce X (vague) :
 
 Arguments de vente : https://vitrines.mkweli.tech/sales/
 
-Enregistrer les 5 liens du magasin dans un dossier « Pitch » sur le téléphone. Ouvrir **un seul** site devant le propriétaire.
+Les boutons du hub ouvrent le chat public avec le premier texte déjà écrit. Un magasin par jour, dans l’ordre du tableau.
 
 ## Domaine `vitrines.mkweli.tech`
 
