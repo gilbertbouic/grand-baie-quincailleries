@@ -14,14 +14,14 @@ https://vitrines.mkweli.tech/
 
 Hub + playbook are password-gated. After you approve a hire, tell them: **`mkweli-nord`**.
 
-Pitch : **texte WhatsApp** sur le numéro public du magasin. Pas de voice note, pas d’appel. Un magasin par jour.
+Pitch : **visite en magasin**. Montrer la page du commerce déjà ouverte sur le téléphone. Un magasin par jour. Demander le patron.
 
-Prix : **Rs 5 000** une fois. Pas de mensualité dans le pitch. Si un hire envoie les textes : commission **Rs 1 500** après paiement reçu (dans `/equipe/termes.html`, pas au patron).
+Prix : **Rs 8 000** une fois. Pas de mensualité dans le pitch. Commission vendeur : **Rs 4 000** après paiement reçu (dans `/equipe/termes.html`, pas au patron).
 
-Annonce X (vague) :
+Annonce X / Facebook (vague) :
 
-> Grand Baie — mo rode ene dimounn pou ecrire 5 commerces lor WhatsApp, semaine. Kreol + français. Texte seulement, pa voice.  
-> Ecrire « dispo » lor WhatsApp [number]. Mo explike si ça match.
+> Grand Baie — mo rode ene dimounn pou visiter 5 commerces, montrer ene ti page lor telefon. Kreol + français. Commission Rs 4 000 par vente.  
+> Ecrire « dispo ». Mo explike si ça match.
 
 | Magasin | Ouvrir sur le téléphone |
 |---|---|
@@ -33,7 +33,7 @@ Annonce X (vague) :
 
 Arguments de vente : https://vitrines.mkweli.tech/sales/
 
-Les boutons du hub ouvrent le chat public avec le premier texte déjà écrit. Un magasin par jour, dans l’ordre du tableau.
+Les boutons du hub ouvrent le site du magasin à montrer sur le téléphone. Un magasin par jour, dans l’ordre du tableau.
 
 ## Domaine `vitrines.mkweli.tech`
 
