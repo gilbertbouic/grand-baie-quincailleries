@@ -14,22 +14,21 @@ https://vitrines.mkweli.tech/
 
 Hub + playbook are password-gated. After you approve a hire, tell them: **`mkweli-nord`**.
 
-Pitch : **visite en magasin**. Montrer la page du commerce déjà ouverte sur le téléphone. Un magasin par jour. Demander le patron.
+Pitch : **visite en magasin**. Montrer la page du commerce déjà ouverte sur le téléphone. Un magasin par jour. Demander le patron. **Toi tu fais Kiss en premier** — pas un junior seul.
 
-Prix : **Rs 8 000** une fois. Pas de mensualité dans le pitch. Commission vendeur : **Rs 4 000** après paiement reçu (dans `/equipe/termes.html`, pas au patron).
+Prix : **Rs 8 000** une fois. Pas de mensualité dans le pitch. Commission vendeur : **Rs 4 000** après paiement reçu (dans `/equipe/termes.html`, pas au patron, pas dans une annonce).
 
-Annonce X / Facebook (vague) :
+Annonce X / Facebook (vague — pas de commission, pas de liste de magasins) :
 
-> Grand Baie — mo rode ene dimounn pou visiter 5 commerces, montrer ene ti page lor telefon. Kreol + français. Commission Rs 4 000 par vente.  
+> Grand Baie — mo rode ene dimounn pou visiter ti commerces, montrer ene ti page lor telefon. Kreol + français.  
 > Ecrire « dispo ». Mo explike si ça match.
 
 | Magasin | Ouvrir sur le téléphone |
 |---|---|
 | Kiss Grand Bay | https://vitrines.mkweli.tech/quincaillerie-kiss/ |
-| Lennard’s Store | https://vitrines.mkweli.tech/lennard-store/ |
 | NBZ Hardware | https://vitrines.mkweli.tech/nbz-hardware/ |
-| La Coruna | https://vitrines.mkweli.tech/quincaillerie-la-coruna/ |
 | Pereybere | https://vitrines.mkweli.tech/quincaillerie-pereybere/ |
+| La Coruna | https://vitrines.mkweli.tech/quincaillerie-la-coruna/ |
 
 Arguments de vente : https://vitrines.mkweli.tech/sales/
 
@@ -50,12 +49,13 @@ Cloudflare: leave the record **DNS only** (grey cloud) until GitHub has issued H
 | Dossier | Commerce |
 |---|---|
 | `quincaillerie-kiss/` | Quincaillerie Kiss Grand Bay |
-| `lennard-store/` | Lennard’s Store (épicerie B13) |
 | `nbz-hardware/` | NBZ Hardware Shop |
-| `quincaillerie-la-coruna/` | Quincaillerie La Coruna |
 | `quincaillerie-pereybere/` | Quincaillerie Pereybere Co. Ltd |
+| `quincaillerie-la-coruna/` | Quincaillerie La Coruna |
 
-`quincaillerie-singlon/` reste sur disque mais **hors pitch** : aucune photo réelle sur Google / Street View.
+`lennard-store/` reste sur disque (épicerie, vraie façade) mais **hors pitch** cette semaine — le récit c’est les quincailleries.
+
+`quincaillerie-singlon/` reste sur disque mais **pas publié** sur Pages : aucune photo réelle.
 
 `index.html` à la racine = tableau de démo **interne**. `sales/` = arguments de vente. Ne pas envoyer ces deux URL aux propriétaires.
 

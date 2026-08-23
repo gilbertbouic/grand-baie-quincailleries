@@ -129,13 +129,4 @@
   try { start = localStorage.getItem(KEY) || "fr"; } catch (e) {}
   apply(start);
   setOpen();
-
-  document.querySelectorAll(".send-owner").forEach(function (a) {
-    a.addEventListener("click", function (e) {
-      e.preventDefault();
-      var url = location.href.split("#")[0];
-      var msg = "Bonzour, mo Mkweli Grand Baie. Mo preparer ene ti page pou ou magasin — horaires, WhatsApp, plan — avec ou façade ki déjà lor Google. Pa encore officiel. Ouvert li kan ou ena ene minute:\n" + url;
-      location.href = "https://wa.me/?text=" + encodeURIComponent(msg);
-    });
-  });
 })();
