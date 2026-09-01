@@ -34,6 +34,10 @@ Arguments de vente : https://vitrines.mkweli.tech/sales/
 
 Les boutons du hub ouvrent le site du magasin à montrer sur le téléphone. Un magasin par jour, dans l’ordre du tableau.
 
+Prochaine vague (île entière, **à vérifier sur Maps avant tout draft**) :  
+https://vitrines.mkweli.tech/equipe/prospects.html  
+WhatsApp + pin Google, pas de site, pas de Facebook. Pas de page construite tant que la façade n’est pas une vraie photo du bâtiment. Premier texte : pas le prix. Ensuite Rs 8 000. Un magasin par jour.
+
 ## Domaine `vitrines.mkweli.tech`
 
 Apex `mkweli.tech` (studio) is unchanged. Add this **one** DNS record where the zone is managed:
