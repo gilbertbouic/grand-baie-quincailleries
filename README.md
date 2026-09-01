@@ -29,6 +29,7 @@ Annonce X / Facebook (vague — pas de commission, pas de liste de magasins) :
 | NBZ Hardware | https://vitrines.mkweli.tech/nbz-hardware/ |
 | Pereybere | https://vitrines.mkweli.tech/quincaillerie-pereybere/ |
 | La Coruna | https://vitrines.mkweli.tech/quincaillerie-la-coruna/ |
+| The Beauty Loft (hors semaine quincaillerie) | https://vitrines.mkweli.tech/beauty-loft/ |
 
 Arguments de vente : https://vitrines.mkweli.tech/sales/
 
@@ -56,6 +57,7 @@ Cloudflare: leave the record **DNS only** (grey cloud) until GitHub has issued H
 | `nbz-hardware/` | NBZ Hardware Shop |
 | `quincaillerie-pereybere/` | Quincaillerie Pereybere Co. Ltd |
 | `quincaillerie-la-coruna/` | Quincaillerie La Coruna |
+| `beauty-loft/` | The Beauty Loft (salon, 58 Sottise Road) — photo équipe, pas façade |
 
 `lennard-store/` reste sur disque (épicerie, vraie façade) mais **hors pitch** cette semaine — le récit c’est les quincailleries.
 
