@@ -118,6 +118,8 @@ h2 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.7rem, 3vw, 
 .close p { color: #d4b8c4; max-width: 28rem; margin: 0 auto 1.4rem; }
 
 footer { padding: 1.6rem 0 5.5rem; color: var(--muted); font-size: 0.82rem; }
+.socials { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0.8rem 0 0; }
+.socials a { min-height: 44px; display: inline-flex; align-items: center; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.72rem; font-weight: 600; text-decoration: none; color: var(--gold-2); }
 .sticky-cta { display: none; }
 
 @media (max-width: 800px) {

@@ -59,7 +59,7 @@ Cloudflare: leave the record **DNS only** (grey cloud) until GitHub has issued H
 | `quincaillerie-pereybere/` | Quincaillerie Pereybere Co. Ltd |
 | `quincaillerie-la-coruna/` | Quincaillerie La Coruna |
 | `beauty-loft/` | The Beauty Loft (salon, 58 Sottise Road) — photo équipe, pas façade |
-| `my-diamond-spa/` | My Diamond Spa (Super U Grand Baie) — photo équipe, pas façade |
+| `my-diamond-spa/` | My Diamond Spa (Super U Grand Baie) — photo équipe, 269 1502 |
 
 `lennard-store/` reste sur disque (épicerie, vraie façade) mais **hors pitch** cette semaine — le récit c’est les quincailleries.
 
