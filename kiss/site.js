@@ -146,6 +146,11 @@
       btn.setAttribute("aria-pressed", btn.getAttribute("data-lang") === lang ? "true" : "false");
     });
     try { localStorage.setItem(KEY, lang); } catch (e) {}
+    try {
+      var u = new URL(location.href);
+      u.searchParams.set("lang", lang);
+      history.replaceState(null, "", u.pathname + u.search);
+    } catch (e) {}
   }
 
   document.querySelectorAll(".lang-btn").forEach(function (btn) {
@@ -169,8 +174,20 @@
     el.dataset.state = open ? "open" : "closed";
   }
 
-  var start = "fr";
-  try { start = localStorage.getItem(KEY) || "fr"; } catch (e) {}
-  apply(start);
+  function bootLang() {
+    try {
+      var q = (new URLSearchParams(location.search).get("lang") || "").toLowerCase();
+      if (q === "en" || q === "fr") return q;
+    } catch (e) {}
+    try {
+      var saved = localStorage.getItem(KEY);
+      if (saved === "en" || saved === "fr") return saved;
+    } catch (e) {}
+    try {
+      if ((navigator.language || "").toLowerCase().indexOf("en") === 0) return "en";
+    } catch (e) {}
+    return "fr";
+  }
+  apply(bootLang());
   setOpen();
 })();
