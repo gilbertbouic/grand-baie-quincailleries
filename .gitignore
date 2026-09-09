@@ -5,3 +5,9 @@ Thumbs.db
 .vscode/
 *.odt
 .~lock.*
+inbox/
+Hardware shops/
+Pharmacies/
+Beauty/
+tmp_*.jpg
+_build_sites.py

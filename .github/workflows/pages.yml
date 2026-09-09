@@ -22,8 +22,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Unpublish Singlon (generated façade)
-        run: rm -rf quincaillerie-singlon
+      - name: Keep Pages to short shop slugs only
+        run: |
+          rm -rf "Hardware shops" Pharmacies Beauty inbox playbook sales
+          rm -f equipe/termes.html equipe/prospects.html
+          rm -f _build_sites.py tmp_*.jpg
+          rm -rf quincaillerie-singlon nbz-hardware lennard-store quincaillerie-la-coruna
       - uses: actions/configure-pages@v5
         with:
           enablement: true

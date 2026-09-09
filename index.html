@@ -2,115 +2,44 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#3a2a1c">
-  <title>Brouillons Grand Baie — démo interne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
+  <title>Brouillons — WhatsApp</title>
   <style>
-    :root { --ink: #161513; --muted: #5c564c; --line: #e4ddd2; --bg: #f6f1e8; }
-    * { box-sizing: border-box; }
-    html { -webkit-text-size-adjust: 100%; }
-    body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; overflow-x: hidden; }
-    .wrap { width: min(980px, calc(100% - 1.4rem)); margin: 1.2rem auto 3rem; }
-    .warn { background: #3a2a1c; color: #f6e7c8; padding: 0.75rem 0.9rem; border-radius: 10px; font-size: 0.82rem; }
-    h1 { font-size: 1.45rem; margin: 1rem 0 0.35rem; }
-    p { color: var(--muted); }
-    .grid { display: grid; gap: 0.75rem; margin-top: 1.2rem; }
-    a.card { display: grid; grid-template-columns: 104px 1fr; gap: 0.75rem; align-items: center; background: #fff; border: 1px solid var(--line); border-radius: 14px; text-decoration: none; color: inherit; overflow: hidden; min-height: 92px; }
-    a.card img { width: 104px; height: 92px; object-fit: cover; background: #eee; }
-    a.card h2 { margin: 0.2rem 0 0.15rem; font-size: 1.02rem; }
-    a.card p { margin: 0 0.7rem 0.2rem 0; font-size: 0.82rem; }
-    .row { display: grid; gap: 0.4rem; }
-    .wa {
-      display: flex; align-items: center; justify-content: center;
-      min-height: 44px; background: #1f6b4a; color: #fff; font-weight: 700;
-      text-decoration: none; border-radius: 10px; font-size: 0.88rem;
-    }
-    .guide {
-      display: block; background: #7a1f18; color: #fff; text-align: center;
-      padding: 0.95rem 1rem; border-radius: 12px; text-decoration: none;
-      font-weight: 700; margin: 1rem 0 0.4rem; min-height: 48px;
-    }
-    .tag { display: inline-block; font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 800; color: #8a3b16; }
-    nav { margin-top: 1.3rem; }
-    nav a { color: #8a3b16; font-weight: 700; display: inline-flex; min-height: 44px; align-items: center; }
-    @media (min-width: 720px) {
-      h1 { font-size: 1.8rem; }
-      a.card { grid-template-columns: 148px 1fr; }
-      a.card img { width: 148px; height: 120px; }
-    }
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f6f1e8; color: #161513; line-height: 1.45; }
+    .wrap { width: min(720px, calc(100% - 1.4rem)); margin: 1.2rem auto 3rem; }
+    h1 { font-size: 1.3rem; }
+    p { color: #5c564c; }
+    table { width: 100%; border-collapse: collapse; background: #fff; font-size: .88rem; }
+    th, td { border: 1px solid #e4ddd2; padding: .5rem .55rem; text-align: left; vertical-align: top; }
+    th { background: #efe8dc; }
+    a { color: #8a3b16; }
+    code { font-size: .8rem; }
   </style>
 </head>
 <body>
-  <script src="shared/gate.js"></script>
   <div class="wrap">
-    <div class="warn">Démo interne — ne pas envoyer cette page aux propriétaires. Chaque magasin a son propre dossier et sa propre URL.</div>
-    <h1>Quatre quincailleries — Grand Baie / Pereybere</h1>
-    <p>Pitch = <strong>visite en magasin</strong>. Montrer le page lor telefon. Ene magasin par jour. Ordre quincaillerie : Kiss → NBZ → Pereybere → La Coruna. Beauty Loft et My Diamond Spa hors sa semaine. Prix : <strong>Rs 8 000</strong> ene fwa. Commission vendeur : <strong>Rs 4 000</strong> après paiement (pa au patron). Lennard’s et Singlon hors pitch.</p>
-    <a class="guide" href="playbook/">Guide vendeur — ki dire, kouma vendre</a>
-    <div class="grid">
-      <div class="row">
-        <a class="card" href="quincaillerie-kiss/">
-          <img src="quincaillerie-kiss/assets/hero.jpg" alt="">
-          <div>
-            <h2>Quincaillerie Kiss Grand Bay</h2>
-            <p><span class="tag">1 · Dimanche + 1969</span><br>Royal Road · 5256 9117</p>
-          </div>
-        </a>
-        <a class="wa" href="quincaillerie-kiss/">Montrer le site (Kiss)</a>
-      </div>
-      <div class="row">
-        <a class="card" href="nbz-hardware/">
-          <img src="nbz-hardware/assets/hero.jpg" alt="">
-          <div>
-            <h2>NBZ Hardware Shop</h2>
-            <p><span class="tag">2 · Livraison + électricité</span><br>Geranium Road · 263 8711</p>
-          </div>
-        </a>
-        <a class="wa" href="nbz-hardware/">Montrer le site (NBZ)</a>
-      </div>
-      <div class="row">
-        <a class="card" href="quincaillerie-pereybere/">
-          <img src="quincaillerie-pereybere/assets/hero.jpg" alt="">
-          <div>
-            <h2>Quincaillerie Pereybere Co. Ltd</h2>
-            <p><span class="tag">3 · Matériaux BTP</span><br>Allée des Goélands · 5913 1000</p>
-          </div>
-        </a>
-        <a class="wa" href="quincaillerie-pereybere/">Montrer le site (Pereybere)</a>
-      </div>
-      <div class="row">
-        <a class="card" href="quincaillerie-la-coruna/">
-          <img src="quincaillerie-la-coruna/assets/hero.jpg" alt="">
-          <div>
-            <h2>Quincaillerie La Coruna</h2>
-            <p><span class="tag">4 · Première en 1980</span><br>Royal Road · 263 6879</p>
-          </div>
-        </a>
-        <a class="wa" href="quincaillerie-la-coruna/">Montrer le site (La Coruna)</a>
-      </div>
-      <div class="row">
-        <a class="card" href="beauty-loft/">
-          <img src="beauty-loft/assets/hero.jpg" alt="">
-          <div>
-            <h2>The Beauty Loft</h2>
-            <p><br>58 Sottise Road · 5949 1766</p>
-          </div>
-        </a>
-        <a class="wa" href="beauty-loft/">Montrer le site (Beauty Loft)</a>
-      </div>
-      <div class="row">
-        <a class="card" href="my-diamond-spa/">
-          <img src="my-diamond-spa/assets/hero.jpg" alt="">
-          <div>
-            <h2>My Diamond Spa</h2>
-            <p><span class="tag">Spa · hors semaine quincaillerie</span><br>Super U Grand Baie · 269 1502</p>
-          </div>
-        </a>
-        <a class="wa" href="my-diamond-spa/">Montrer le site (My Diamond Spa)</a>
-      </div>
-    </div>
-    <nav><a href="playbook/">Guide vendeur</a></nav>
+    <h1>Liens à envoyer — un par jour</h1>
+    <p>Pas de vendeur externe. Premier message = le lien. 24 h sans réponse positive → retirer le dossier. Banque seulement après oui + 3 photos.</p>
+    <table>
+      <tr><th>Slug</th><th>WhatsApp</th><th>Page</th></tr>
+      <tr><td>kiss</td><td><a href="https://wa.me/23052569117">5256 9117</a></td><td><a href="kiss/">/kiss/</a></td></tr>
+      <tr><td>pereybere</td><td><a href="https://wa.me/23059131000">5913 1000</a></td><td><a href="pereybere/">/pereybere/</a></td></tr>
+      <tr><td>loft</td><td><a href="https://wa.me/23059491766">5949 1766</a></td><td><a href="loft/">/loft/</a></td></tr>
+      <tr><td>diamond</td><td><a href="https://wa.me/23052505058">5250 5058</a></td><td><a href="diamond/">/diamond/</a></td></tr>
+      <tr><td>aj</td><td><a href="https://wa.me/23052562092">5256 2092</a></td><td><a href="aj/">/aj/</a></td></tr>
+      <tr><td>klm</td><td><a href="https://wa.me/23057966777">5796 6777</a></td><td><a href="klm/">/klm/</a></td></tr>
+      <tr><td>etoile</td><td><a href="https://wa.me/23057057804">5705 7804</a></td><td><a href="etoile/">/etoile/</a></td></tr>
+      <tr><td>medicine</td><td><a href="https://wa.me/23059586565">5958 6565</a></td><td><a href="medicine/">/medicine/</a></td></tr>
+      <tr><td>familycare</td><td><a href="https://wa.me/23059080557">5908 0557</a></td><td><a href="familycare/">/familycare/</a></td></tr>
+      <tr><td>medpharm</td><td><a href="https://wa.me/23059155000">5915 5000</a></td><td><a href="medpharm/">/medpharm/</a></td></tr>
+      <tr><td>oakview</td><td><a href="https://wa.me/23054464100">5446 4100</a></td><td><a href="oakview/">/oakview/</a></td></tr>
+      <tr><td>wellwise</td><td><a href="https://wa.me/23058218046">5821 8046</a></td><td><a href="wellwise/">/wellwise/</a></td></tr>
+    </table>
+    <p>Message :<br>
+    <code>Bonzour, mo Mkweli Grand Baie. Mo fine prepare ene ti page pou ou magasin — horaires, WhatsApp, plan, ou façade Google. Pa encore officiel. Gete : https://vitrines.mkweli.tech/SLUG/ Si ou oulé mo met li officiel lor Google : Rs 8 000 ene fwa. Pa loyer. Ou envoye 3 photos + ene ti texte. Apre paiement mo colle le lien dan Google.</code></p>
+    <p>Pas le même jour : AJ + KLM (20 Pieds). Etoile + Loft (Sottise). Toutes les pharmacies le même matin.</p>
+    <p><a href="equipe/facture.html">Facture</a></p>
   </div>
 </body>
 </html>
