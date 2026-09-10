@@ -47,6 +47,7 @@
     "nav.care": "Wash",
     "nav.price": "Prices",
     "nav.find": "Map",
+    "care.kicker": "Wash",
     "cta.wa_prefix": "WhatsApp",
     "cta.gmaps": "Directions",
     "price.kicker": "Prices",
