@@ -37,6 +37,6 @@ Banque après oui + 3 photos. Puis coller le lien dans Google Business → Site 
 | bubbles | Bubbles Car Wash |
 | gaube | The Car Wash Grand Gaube |
 
-## Hors Pages (non / pas WhatsApp / pas reçu)
+## Ne pas recontacter (dossiers supprimés)
 
-loft, diamond, klm, medicine, oakview, medpharm — dossiers encore sur disque, retirés au deploy.
+Loft, Diamond, KLM (non). Medicine, Oakview (pas WhatsApp). Medpharm (pas reçu).

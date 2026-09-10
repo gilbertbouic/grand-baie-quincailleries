@@ -9,6 +9,8 @@ inbox/
 Hardware shops/
 Pharmacies/
 Beauty/
+screenshots/
+audit.docx
 tmp_*.jpg
 _build_sites.py
 _build_carwash.py
