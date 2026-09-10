@@ -28,6 +28,8 @@ jobs:
           rm -f equipe/termes.html equipe/prospects.html
           rm -f _build_sites.py tmp_*.jpg
           rm -rf quincaillerie-singlon nbz-hardware lennard-store quincaillerie-la-coruna
+          rm -rf loft diamond klm medicine oakview medpharm
+          rm -rf beauty-loft my-diamond-spa
       - uses: actions/configure-pages@v5
         with:
           enablement: true

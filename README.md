@@ -1,24 +1,22 @@
 # Vitrines commerces — nord
 
-Sites HTML statiques, un dossier court à la racine. Français par défaut, bascule EN. WhatsApp-only.
+Pages HTML, slug court : `https://vitrines.mkweli.tech/{slug}/`
 
-Hébergement : https://vitrines.mkweli.tech/{slug}/
+Toujours coller l’URL complète. Un lien relatif depuis `/pereybere/` devient `/pereybere/aj` et 404.
 
-Prix : **Rs 8 000** une fois. Banque seulement après oui + 3 photos + texte. Puis coller l’URL dans Google Business → Site web.
+Prix : **Rs 8 000** une fois. Banque après oui + 3 photos.
 
-Un WhatsApp par jour. 24 h sans réponse positive → retirer le dossier.
+## En ligne (audit : not opened — un bump max)
 
 | Slug | Commerce |
 |---|---|
 | kiss | Quincaillerie Kiss |
 | pereybere | Quincaillerie Pereybere |
-| loft | The Beauty Loft |
-| diamond | My Diamond Spa (WA 5250 5058) |
 | aj | Quincaillerie AJ |
-| klm | Quincaillerie 20 pieds KLM |
 | etoile | Quincaillerie Etoile |
-| medicine | The Medicine Shop |
 | familycare | Pharmacy Family Care Plus |
-| medpharm | Pharmacie Medpharm Ltée |
-| oakview | Pharmacy Oakview |
-| wellwise | Wellwise Pharmacy (visuel rayon) |
+| wellwise | Wellwise Pharmacy |
+
+## Hors Pages (non / pas WhatsApp / pas reçu)
+
+loft, diamond, klm, medicine, oakview, medpharm — dossiers encore sur disque, retirés au deploy.

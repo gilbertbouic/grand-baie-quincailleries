@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page introuvable</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.5; }
+    a { color: #8a3b16; }
+  </style>
+  <script>
+    (function () {
+      var known = {
+        kiss: 1, pereybere: 1, aj: 1, etoile: 1, familycare: 1, wellwise: 1
+      };
+      var parts = location.pathname.split("/").filter(Boolean);
+      var last = parts[parts.length - 1];
+      if (last && known[last]) {
+        location.replace("/" + last + "/" + location.search);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <h1>Lien court, à la racine</h1>
+  <p>AJ : <a href="/aj/">https://vitrines.mkweli.tech/aj/</a></p>
+  <p>Kiss : <a href="/kiss/">https://vitrines.mkweli.tech/kiss/</a></p>
+  <p><a href="/">Tous les brouillons</a></p>
+</body>
+</html>
