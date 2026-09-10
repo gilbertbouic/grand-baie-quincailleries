@@ -28,6 +28,37 @@ jobs:
           rm -f equipe/termes.html equipe/prospects.html
           rm -f _build_sites.py _build_carwash.py tmp_*.jpg audit.docx
           rm -rf screenshots
+      - name: Password-protect the hub
+        run: |
+          npx --yes staticrypt@3.5.4 index.html \
+            -p "mkweli-nord" \
+            -d /tmp/hub-encrypted \
+            --short \
+            --remember 30 \
+            --template-title "Brouillons" \
+            --template-instructions "Page interne Mkweli" \
+            --template-button "Ouvrir" \
+            --template-placeholder "Mot de passe" \
+            --template-error "Mauvais mot de passe" \
+            --template-remember "Rester connecté" \
+            --template-color-primary "#8a3b16" \
+            --template-color-secondary "#f6f1e8"
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("/tmp/hub-encrypted/index.html")
+          html = p.read_text(encoding="utf-8")
+          needle = '<meta charset="utf-8" />'
+          inject = needle + '\n        <meta name="robots" content="noindex, nofollow">'
+          if needle not in html:
+              raise SystemExit("staticrypt template missing charset meta")
+          p.write_text(html.replace(needle, inject, 1), encoding="utf-8")
+          PY
+          cp /tmp/hub-encrypted/index.html index.html
+          rm -f .staticrypt.json
+          if grep -E "5909 0340|wa.me|Brouillons — envoyer" index.html; then
+            echo "Hub plaintext leaked into encrypted page" >&2
+            exit 1
+          fi
       - uses: actions/configure-pages@v5
         with:
           enablement: true
