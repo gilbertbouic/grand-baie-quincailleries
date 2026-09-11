@@ -1,42 +1,42 @@
-# Vitrines commerces — nord
+# Shop drafts — north
 
-Pages HTML, slug court : `https://vitrines.mkweli.tech/{slug}/`
+Short-slug HTML pages: `https://vitrines.mkweli.tech/{slug}/`
 
-Toujours coller l’URL complète. Un lien relatif depuis `/pereybere/` devient `/pereybere/aj` et 404.
+Always paste the full URL. A relative link from `/sanshine/` becomes `/sanshine/aqualux` and 404s.
 
-Prix :
+Price: **Rs 5,000 once**. Included: 1 paragraph or price-list update and 2 photos per month. Not included: videos or extra changes.
 
-- Anciens devis (Kiss, Pereybere, AJ, Etoile, Family Care, Wellwise) : **Rs 8 000** une fois.
-- Nouveaux car wash : **Rs 5 000** une fois, **mise à jour des prix 1×/mois comprise**. Pas d’autre loyer.
+Drafts stay live **24 hours**. Message **new pins only**. Master list: `clients.md` (keyed by mobile number — never message a number twice).
 
-Banque après oui + 3 photos. Puis coller le lien dans Google Business → Site web.
+Bank details after yes + 3 photos. Then paste the link in Google Business → Website.
 
-## En ligne — audit (not opened, un bump max) — Rs 8 000
+## Live — 11 Sep car wash (message today)
 
-| Slug | Commerce |
+| Slug | Shop |
 |---|---|
-| kiss | Quincaillerie Kiss |
-| pereybere | Quincaillerie Pereybere |
-| aj | Quincaillerie AJ |
-| etoile | Quincaillerie Etoile |
-| familycare | Pharmacy Family Care Plus |
-| wellwise | Wellwise Pharmacy |
+| aqualux | Aqualux Car Wash |
+| burnshine | Burn and Shine |
+| carspa | Car Spa Calodyne |
+| goclean | Go Clean Car Wash |
+| eco | Goodlands Eco Car Wash |
+| mike | Mike Car Wash |
+| pepe | Pépé Car Wash |
+| sandiesel | San Diesel Services |
+| sky | Sky Car Wash |
+| star | Star Car Wash |
+| velox | Velox Wash |
+| yash | Yash Car Wash |
 
-## En ligne — car wash (nouveau pitch Rs 5 000)
+## Live — warm (do not re-pitch unless they write)
 
-| Slug | Commerce |
+| Slug | Shop |
 |---|---|
-| islandshine | Island Shine Car Wash |
 | sanshine | Sanshine Car Wash |
-| express | Express Car Wash |
-| ds | D-S Car Wash |
-| ck | CK Car Wash Grand Baie |
-| em | EM Car Wash |
-| baywash | BayWash Auto Spa |
-| montchoisy | Mont Choisy Car Wash |
-| bubbles | Bubbles Car Wash |
-| gaube | The Car Wash Grand Gaube |
 
-## Ne pas recontacter (dossiers supprimés)
+## Do not re-message
 
-Loft, Diamond, KLM (non). Medicine, Oakview (pas WhatsApp). Medpharm (pas reçu).
+10 Sep silent: Island Shine, Express, D-S, CK, EM, BayWash, Mont Choisy, Bubbles, Grand Gaube.
+
+9 Sep shops: Kiss, Pereybere, AJ, Etoile, Family Care, Wellwise.
+
+Earlier nos: Loft, Diamond, KLM. Not WhatsApp: Medicine, Oakview. Not received: Medpharm.

@@ -26,8 +26,8 @@ jobs:
         run: |
           rm -rf "Hardware shops" Pharmacies Beauty inbox playbook sales
           rm -f equipe/termes.html equipe/prospects.html
-          rm -f _build_sites.py _build_carwash.py tmp_*.jpg audit.docx
-          rm -rf screenshots
+          rm -f _build_sites.py _build_carwash.py tmp_*.jpg audit.docx clients.md
+          rm -rf screenshots inbox
       - name: Password-protect the hub
         run: |
           npx --yes staticrypt@3.5.4 index.html \
