@@ -11,7 +11,7 @@
 }
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.55;overflow-x:hidden}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.55;overflow-x:clip;overflow-wrap:break-word}
 img{max-width:100%;display:block}
 a{color:inherit}
 .wrap{width:min(var(--max),calc(100% - 1.5rem));margin-inline:auto}
